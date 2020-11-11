@@ -1,0 +1,27 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/header">
+
+        <EditTextPreference
+            android:defaultValue="700"
+            app:key="width"
+            app:title="@string/width"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            android:defaultValue="300"
+            app:key="height"
+            app:title="@string/height"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:key="num"
+            app:title="@string/num"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+
+
+</PreferenceScreen>
